@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OSI - MODEL</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/osi-layer.js"></script>
+
+</head>
+<body>
+
+<header>
+    <h1>The Seven Layers of OSI</h1>
+</header>
+
+
+<div class="layer-7"><p> Application Layer</p>
+    <div class="dropdown-layer-7">
+        <p class="info">The application layer provides full end-user access to a variety of shared network services for
+            efficient OSI
+            model data flow. This layer has many responsibilities, including error handling and recovery, data flow over
+            a network and full network flow. It is also used to develop network-based applications.
+            More than 15 protocols are used in the application layer, including File Transfer Protocol, Telnet, Trivial
+            File Transfer Protocol and Simple Network Management Protocol.
+            Its major network device or component is the gateway.</p>
+    </div>
+</div>
+
+<div class="layer-6"><p> Presentation Layer</p>
+    <div class="dropdown-layer-6">
+        <p class="info">
+            The presentation layer mainly translates data between the application layer and the network format. Data can
+            be
+            communicated in different formats via different sources. Thus, the presentation layer is responsible for
+            integrating all formats into a standard format for efficient and effective communication.
+            The presentation layer follows data programming structure schemes developed for different languages and
+            provides
+            the real-time syntax required for communication between two objects such as layers, systems or networks. The
+            data format should be acceptable by the next layers; otherwise, the presentation layer may not perform
+            correctly.
+            Network devices or components used by the presentation layer include redirectors and gateways.
+        </p>
+    </div>
+</div>
+<div class="layer-5"><p> Session Layer</p>
+    <div class="dropdown-layer-5">
+        <p class="info">
+            The session layer manages a session by initiating the opening and closing of sessions between end-user
+            application processes. This layer also controls single or multiple connections for each end-user
+            application, and directly communicates with both the presentation and the transport layers. The services
+            offered by the session layer are generally implemented in application environments using remote procedure
+            calls (RPCs).
+
+        </p>
+    </div>
+</div>
+
+<div class="layer-4"><p> Transport Layer</p>
+    <div class="dropdown-layer-4">
+        <p class="info">
+            Transport layers work transparently within the layers above to deliver and receive data without errors. The
+            send side breaks application messages into segments and passes them on to the network layer. The receiving
+            side then reassembles segments into messages and passes them to the application layer.
+        </p>
+    </div>
+
+</div>
+<div class="layer-3"><p> Network Layer</p>
+    <div class="dropdown-layer-3">
+        <p class="info">
+
+            The network layer is considered the backbone of the OSI Model. It selects and manages the best logical path
+            for data transfer between nodes. This layer contains hardware devices such as routers, bridges, firewalls
+            and switches, but it actually creates a logical image of the most efficient communication route and
+            implements it with a physical medium.
+
+            Network layer protocols exist in every host or router. The router examines the header fields of all the IP
+            packets that pass through it.
+
+            Internet Protocol and Netware IPX/SPX are the most common protocols associated with the network layer.
+
+            In the OSI model, the network layer responds to requests from the layer above it (transport layer) and
+            issues requests to the layer below it (data link layer).
+        </p>
+    </div>
+
+</div>
+<div class="layer-2"><p> Data Link Layer</p>
+    <div class="dropdown-layer-2">
+        <p class="info">
+            The data link layer frame includes source and destination addresses, data length, start signal or indicator
+            and other related Ethernet information to enhance communication. This layer's main responsibility is to
+            transfer data frames between nodes over a network.
+        </p>
+    </div>
+
+</div>
+<div class="layer-1"><p> Physical Layer</p>
+
+    <div class="dropdown-layer-1">
+        <p class="info">
+            The physical layer is aimed at consolidating the hardware requirements of a network to enable the successful
+            transmission of data. Network engineers can define different bit-transmission mechanisms for the physical
+            layer level, including the shapes and types of connectors, cables, and frequencies for each physical medium.
+
+            The physical layer sometimes plays an important role in the effective sharing of available communication
+            resources, and helps avoid contention among multiple users. It also handles the transmission rate to improve
+            the flow of data between a sender and receiver.
+        </p>
+    </div>
+</div>
+
+
+</body>
+
+</html>

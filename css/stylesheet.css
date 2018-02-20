@@ -1,0 +1,142 @@
+body {
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+div {
+
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.12);
+
+}
+
+.info {
+    font-size: 15px;
+    z-index: 1000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+
+p, span {
+    margin: 10px;
+    font-size: 30px;
+    z-index: 10;
+    position: relative;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.dropdown-layer-7,
+.dropdown-layer-6,
+.dropdown-layer-5,
+.dropdown-layer-4,
+.dropdown-layer-3,
+.dropdown-layer-2,
+.dropdown-layer-1 {
+    display: none;
+    background-color: white;
+    min-width: 340px;
+}
+
+/*==============================================================*/
+
+.layer-7 {
+    background-color: #CD3200;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.layer-7:hover .dropdown-layer-7 {
+    display: flex;
+    background-color: whitesmoke;
+}
+
+/*==============================================================*/
+
+.layer-6 {
+
+    background-color: #FF669B;
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.layer-6:hover .dropdown-layer-6 {
+    display: flex;
+    background-color: whitesmoke;
+}
+
+/*==============================================================*/
+
+.layer-5 {
+    background-color: #FFCD66;
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.layer-5:hover .dropdown-layer-5 {
+    display: flex;
+    background-color: whitesmoke;
+}
+
+/*==============================================================*/
+
+.layer-4 {
+    background-color: #FFFF67;
+    width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.layer-4:hover .dropdown-layer-4 {
+    display: flex;
+    background-color: whitesmoke;
+}
+
+/*==============================================================*/
+
+.layer-3 {
+    background-color: #66CC00;
+    width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.layer-3:hover .dropdown-layer-3 {
+    display: flex;
+    background-color: whitesmoke;
+}
+
+/*==============================================================*/
+
+.layer-2 {
+    background-color: #00AA01;
+    width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.layer-2:hover .dropdown-layer-2 {
+    display: flex;
+    background-color: whitesmoke;
+}
+
+/*==============================================================*/
+
+.layer-1 {
+    background-color: #038000;
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.layer-1:hover .dropdown-layer-1 {
+    display: flex;
+    background-color: whitesmoke;
+}
+
