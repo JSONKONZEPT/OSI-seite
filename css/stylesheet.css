@@ -2,20 +2,31 @@ body {
     text-align: center;
     background-color: whitesmoke;
     margin: 0;
+
 }
 
 header {
     margin: 0;
     padding: 0;
     box-shadow: 1px 14px 28px rgba(0, 0, 0, .15);
-    
+
     width: 100%;
 
 }
 
-div,
-button {
+#lol {
+    display: none;
+}
 
+.hidden {
+    display: none;
+}
+
+.isEn {
+    display: block;
+}
+
+.button {
     cursor: pointer;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.12);
     transition: all .2s ease-in-out;
@@ -35,7 +46,7 @@ button {
 
 p, span {
     margin: 10px;
-    font-size: 30px;
+    font-size: 26px;
     z-index: 10;
     position: relative;
 }
@@ -59,7 +70,7 @@ h1 {
 }
 
 /*==============================================================*/
-
+#schicht-7,
 #layer-7 {
     background-color: #CD3200;
     width: 240px;
@@ -68,7 +79,7 @@ h1 {
 }
 
 /*==============================================================*/
-
+#schicht-6,
 #layer-6 {
 
     background-color: #FF669B;
@@ -78,7 +89,7 @@ h1 {
 }
 
 /*==============================================================*/
-
+#schicht-5,
 #layer-5 {
     background-color: #FFCD66;
     width: 340px;
@@ -87,7 +98,7 @@ h1 {
 }
 
 /*==============================================================*/
-
+#schicht-4,
 #layer-4 {
     background-color: #FFFF67;
     width: 390px;
@@ -96,7 +107,7 @@ h1 {
 }
 
 /*==============================================================*/
-
+#schicht-3,
 #layer-3 {
     background-color: #66CC00;
     width: 440px;
@@ -105,7 +116,7 @@ h1 {
 }
 
 /*==============================================================*/
-
+#schicht-2,
 #layer-2 {
     background-color: #00AA01;
     width: 490px;
@@ -114,7 +125,7 @@ h1 {
 }
 
 /*==============================================================*/
-
+#schicht-1,
 #layer-1 {
     background-color: #038000;
     width: 540px;
